@@ -1,0 +1,21 @@
+# Exclude SQLite database files
+*.sqlite3
+
+# Exclude compiled Python files and cache directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Exclude database backup files
+*.db
+*.bak
+
+#Exclude log files
+*.log
+
+#Exclude IDE/Editor Files
+.idea/
+
+#Exclude migration Files
+myapp/migrations/
